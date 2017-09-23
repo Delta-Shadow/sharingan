@@ -1,0 +1,28 @@
+* {
+	margin: 0px; 
+	padding: 0px;
+}
+
+html, body {
+	height: 100%; 
+	width: 100%; 
+	display: flex;
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+	transform-origin: center;
+	animation: intro 3s 1;
+}
+
+@keyframes intro{
+	0% { 
+		transform: rotate(0deg);
+		opacity: 0;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		transform: rotate(180deg)
+	}
+}
